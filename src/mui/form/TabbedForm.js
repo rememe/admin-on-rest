@@ -172,6 +172,7 @@ const enhance = compose(
     }),
     reduxForm({
         form: 'record-form',
+        destroyOnUnmount: false,
         enableReinitialize: true,
     }),
     muiThemeable()
